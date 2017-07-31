@@ -1,0 +1,194 @@
+2016-01-05 12:17:33 : INFO : (1599 | DIRECTOR) : (IS | Integration_GCO_USLV) : uslv-tapp-inf04 : VAR_27028 : Use override value ['AM SF','ONC COMM ORANGE SF'] for user-defined workflow/worklet variable:[$$SalesForces].
+2016-01-05 12:17:33 : INFO : (1599 | DIRECTOR) : (IS | Integration_GCO_USLV) : uslv-tapp-inf04 : VAR_27028 : Use override value [0PSZ00000000XhaOAE] for mapping parameter:[$$PermissionSetId].
+2016-01-05 12:17:33 : INFO : (1599 | DIRECTOR) : (IS | Integration_GCO_USLV) : uslv-tapp-inf04 : TM_6014 : Initializing session [s_User_PermissionSet_Assignment] at [Tue Jan 05 12:17:33 2016].
+2016-01-05 12:17:33 : INFO : (1599 | DIRECTOR) : (IS | Integration_GCO_USLV) : uslv-tapp-inf04 : TM_6683 : Repository Name: [Repository_GCO9OQ]
+2016-01-05 12:17:33 : INFO : (1599 | DIRECTOR) : (IS | Integration_GCO_USLV) : uslv-tapp-inf04 : TM_6684 : Server Name: [Integration_GCO_USLV]
+2016-01-05 12:17:33 : INFO : (1599 | DIRECTOR) : (IS | Integration_GCO_USLV) : uslv-tapp-inf04 : TM_6686 : Folder: [GCO_CRM_1_00_USLV]
+2016-01-05 12:17:33 : INFO : (1599 | DIRECTOR) : (IS | Integration_GCO_USLV) : uslv-tapp-inf04 : TM_6685 : Workflow: [wf_User_PermissionSet_Assignment] Run Instance Name: [] Run Id: [919614]
+2016-01-05 12:17:33 : INFO : (1599 | DIRECTOR) : (IS | Integration_GCO_USLV) : uslv-tapp-inf04 : TM_6101 : Mapping name: m_User_PermissionSet_Assignment [version 3].
+2016-01-05 12:17:33 : INFO : (1599 | DIRECTOR) : (IS | Integration_GCO_USLV) : uslv-tapp-inf04 : TM_6964 : Date format for the Session is [MM/DD/YYYY HH24:MI:SS.US]
+2016-01-05 12:17:33 : INFO : (1599 | DIRECTOR) : (IS | Integration_GCO_USLV) : uslv-tapp-inf04 : TM_6708 : Using configuration property [Base64EncodeMail,Yes]
+2016-01-05 12:17:33 : INFO : (1599 | DIRECTOR) : (IS | Integration_GCO_USLV) : uslv-tapp-inf04 : TM_6708 : Using configuration property [lookupOverrideParsingSetting,1]
+2016-01-05 12:17:33 : INFO : (1599 | DIRECTOR) : (IS | Integration_GCO_USLV) : uslv-tapp-inf04 : TM_6708 : Using configuration property [SMTPFromAddress,svc-informatica-qual@amgen.com]
+2016-01-05 12:17:33 : INFO : (1599 | DIRECTOR) : (IS | Integration_GCO_USLV) : uslv-tapp-inf04 : TM_6708 : Using configuration property [SMTPPortNumber,25]
+2016-01-05 12:17:33 : INFO : (1599 | DIRECTOR) : (IS | Integration_GCO_USLV) : uslv-tapp-inf04 : TM_6708 : Using configuration property [SMTPServerAddress,mailhost-i.amgen.com]
+2016-01-05 12:17:33 : INFO : (1599 | DIRECTOR) : (IS | Integration_GCO_USLV) : uslv-tapp-inf04 : TM_6703 : Session [s_User_PermissionSet_Assignment] is run by 64-bit Integration Service  [uslv-tapp-inf04], version [9.1.0 HotFix6], build [0111].
+2016-01-05 12:17:33 : INFO : (1599 | MANAGER) : (IS | Integration_GCO_USLV) : uslv-tapp-inf04 : PETL_24058 : Running Partition Group [1].
+2016-01-05 12:17:33 : INFO : (1599 | MANAGER) : (IS | Integration_GCO_USLV) : uslv-tapp-inf04 : PETL_24000 : Parallel Pipeline Engine initializing.
+2016-01-05 12:17:33 : INFO : (1599 | MANAGER) : (IS | Integration_GCO_USLV) : uslv-tapp-inf04 : PETL_24001 : Parallel Pipeline Engine running.
+2016-01-05 12:17:33 : INFO : (1599 | MANAGER) : (IS | Integration_GCO_USLV) : uslv-tapp-inf04 : PETL_24003 : Initializing session run.
+2016-01-05 12:17:33 : INFO : (1599 | MAPPING) : (IS | Integration_GCO_USLV) : uslv-tapp-inf04 : CMN_1569 : Server Mode: [UNICODE]
+2016-01-05 12:17:33 : INFO : (1599 | MAPPING) : (IS | Integration_GCO_USLV) : uslv-tapp-inf04 : CMN_1570 : Server Code page: [ISO 8859-1 Western European]
+2016-01-05 12:17:33 : INFO : (1599 | MAPPING) : (IS | Integration_GCO_USLV) : uslv-tapp-inf04 : TM_6151 : The session sort order is [Binary].
+2016-01-05 12:17:33 : INFO : (1599 | MAPPING) : (IS | Integration_GCO_USLV) : uslv-tapp-inf04 : TM_6156 : Using low precision processing.
+2016-01-05 12:17:33 : INFO : (1599 | MAPPING) : (IS | Integration_GCO_USLV) : uslv-tapp-inf04 : TM_6180 : Deadlock retry logic will not be implemented.
+2016-01-05 12:17:33 : INFO : (1599 | MAPPING) : (IS | Integration_GCO_USLV) : uslv-tapp-inf04 : TM_6187 : Session target-based commit interval is [10000].
+2016-01-05 12:17:33 : INFO : (1599 | MAPPING) : (IS | Integration_GCO_USLV) : uslv-tapp-inf04 : SDKS_38029 : Loaded plug-in 310600: [PowerExchange for Salesforce.com Reader Plugin 9.1.0].
+2016-01-05 12:17:33 : INFO : (1599 | MAPPING) : (IS | Integration_GCO_USLV) : uslv-tapp-inf04 : SDKS_38024 : Plug-in 310600 initialization complete.
+2016-01-05 12:17:33 : INFO : (1599 | MAPPING) : (IS | Integration_GCO_USLV) : uslv-tapp-inf04 : SDKS_38016 : Reader SDK plug-in intialization complete.
+2016-01-05 12:17:33 : INFO : (1599 | MAPPING) : (IS | Integration_GCO_USLV) : uslv-tapp-inf04 : SDKS_38029 : Loaded plug-in 310600: [PowerExchange for Salesforce.com Writer Plugin 9.1.0].
+2016-01-05 12:17:33 : INFO : (1599 | MAPPING) : (IS | Integration_GCO_USLV) : uslv-tapp-inf04 : SDKS_38024 : Plug-in 310600 initialization complete.
+2016-01-05 12:17:33 : INFO : (1599 | MAPPING) : (IS | Integration_GCO_USLV) : uslv-tapp-inf04 : SDKS_38017 : Writer SDK plug-in intialization complete.
+2016-01-05 12:17:33 : INFO : (1599 | MAPPING) : (IS | Integration_GCO_USLV) : uslv-tapp-inf04 : SDKS_38509 : SDK target and group initialization complete.
+2016-01-05 12:17:33 : INFO : (1599 | MAPPING) : (IS | Integration_GCO_USLV) : uslv-tapp-inf04 : TM_6307 : DTM error log disabled. 
+2016-01-05 12:17:33 : INFO : (1599 | MAPPING) : (IS | Integration_GCO_USLV) : uslv-tapp-inf04 : TE_7022 : TShmWriter: Initialized
+2016-01-05 12:17:33 : INFO : (1599 | MAPPING) : (IS | Integration_GCO_USLV) : uslv-tapp-inf04 : TM_6007 : DTM initialized successfully for session [s_User_PermissionSet_Assignment]
+2016-01-05 12:17:33 : INFO : (1599 | DIRECTOR) : (IS | Integration_GCO_USLV) : uslv-tapp-inf04 : PETL_24033 : All DTM Connection Info: [<NONE>].
+2016-01-05 12:17:33 : INFO : (1599 | MANAGER) : (IS | Integration_GCO_USLV) : uslv-tapp-inf04 : PETL_24004 : PETL_24004 Starting pre-session tasks. : (Tue Jan 05 12:17:33 2016)
+2016-01-05 12:17:33 : INFO : (1599 | MANAGER) : (IS | Integration_GCO_USLV) : uslv-tapp-inf04 : PETL_24027 : PETL_24027 Pre-session task completed successfully. : (Tue Jan 05 12:17:33 2016)
+2016-01-05 12:17:33 : INFO : (1599 | DIRECTOR) : (IS | Integration_GCO_USLV) : uslv-tapp-inf04 : PETL_24006 : Starting data movement.
+2016-01-05 12:17:33 : INFO : (1599 | DIRECTOR) : (IS | Integration_GCO_USLV) : uslv-tapp-inf04 : TT_11183 : Enabled using [1 (auto)] additional concurrent pipelines to build lookup caches. (Session likely will build or refresh [3] lookup caches; [0] on-demand only).
+2016-01-05 12:17:33 : INFO : (1599 | MAPPING) : (IS | Integration_GCO_USLV) : uslv-tapp-inf04 : TM_6660 : Total Buffer Pool size is 1852000 bytes and Block size is 64000 bytes.
+2016-01-05 12:17:33 : INFO : (1599 | LKPDP_1) : (IS | Integration_GCO_USLV) : uslv-tapp-inf04 : DBG_21693 : LKP_ExcludeUsers{{SRT}}: Cache size for partition [1] = [195734185]
+2016-01-05 12:17:33 : INFO : (1599 | LKPDP_1) : (IS | Integration_GCO_USLV) : uslv-tapp-inf04 : SORT_40419 : For Transformation [LKP_ExcludeUsers{{SRT}}], memory used is [195734185] bytes and row size is 216 bytes.
+2016-01-05 12:17:33 : INFO : (1599 | LKPDP_1) : (IS | Integration_GCO_USLV) : uslv-tapp-inf04 : TE_7212 : Increasing [Index Cache] size for transformation [LKP_ExcludeUsers] from [59652323] to [59673600].
+2016-01-05 12:17:33 : INFO : (1599 | LKPDP_1) : (IS | Integration_GCO_USLV) : uslv-tapp-inf04 : TE_7212 : Increasing [Data Cache] size for transformation [LKP_ExcludeUsers] from [119304646] to [119308288].
+2016-01-05 12:17:33 : INFO : (1599 | LKPDP_2) : (IS | Integration_GCO_USLV) : uslv-tapp-inf04 : DBG_21693 : LKP_PermissionSetAssignment{{SRT}}: Cache size for partition [1] = [195734185]
+2016-01-05 12:17:33 : INFO : (1599 | LKPDP_2) : (IS | Integration_GCO_USLV) : uslv-tapp-inf04 : SORT_40419 : For Transformation [LKP_PermissionSetAssignment{{SRT}}], memory used is [195734185] bytes and row size is 140 bytes.
+2016-01-05 12:17:33 : INFO : (1599 | LKPDP_2) : (IS | Integration_GCO_USLV) : uslv-tapp-inf04 : DBG_21693 : LKP_PermissionSetAssignment2{{SRT}}: Cache size for partition [1] = [195734185]
+2016-01-05 12:17:33 : INFO : (1599 | LKPDP_2) : (IS | Integration_GCO_USLV) : uslv-tapp-inf04 : SORT_40419 : For Transformation [LKP_PermissionSetAssignment2{{SRT}}], memory used is [195734185] bytes and row size is 140 bytes.
+2016-01-05 12:17:33 : INFO : (1599 | LKPDP_2) : (IS | Integration_GCO_USLV) : uslv-tapp-inf04 : TE_7212 : Increasing [Index Cache] size for transformation [LKP_PermissionSetAssignment] from [59652323] to [59659200].
+2016-01-05 12:17:33 : INFO : (1599 | LKPDP_2) : (IS | Integration_GCO_USLV) : uslv-tapp-inf04 : TE_7212 : Increasing [Data Cache] size for transformation [LKP_PermissionSetAssignment] from [119304646] to [119308288].
+2016-01-05 12:17:33 : INFO : (1599 | LKPDP_2) : (IS | Integration_GCO_USLV) : uslv-tapp-inf04 : TE_7212 : Increasing [Index Cache] size for transformation [LKP_PermissionSetAssignment2] from [59652323] to [59664384].
+2016-01-05 12:17:33 : INFO : (1599 | LKPDP_2) : (IS | Integration_GCO_USLV) : uslv-tapp-inf04 : TE_7212 : Increasing [Data Cache] size for transformation [LKP_PermissionSetAssignment2] from [119304646] to [119308288].
+2016-01-05 12:17:33 : INFO : (1599 | DIRECTOR) : (IS | Integration_GCO_USLV) : uslv-tapp-inf04 : TT_11184 : Starting additional concurrent pipeline to build the lookup cache needed by Lookup transformation [LKP_ExcludeUsers].
+2016-01-05 12:17:33 : INFO : (1599 | LKPDP_1) : (IS | Integration_GCO_USLV) : uslv-tapp-inf04 : TM_6660 : Total Buffer Pool size is 609824 bytes and Block size is 65536 bytes.
+2016-01-05 12:17:33 : INFO : (1599 | LKPDP_1:READER_1_1) : (IS | Integration_GCO_USLV) : uslv-tapp-inf04 : DBG_21437 : Reader: Source is a file-based source.
+2016-01-05 12:17:33 : INFO : (1599 | LKPDP_1:READER_1_1) : (IS | Integration_GCO_USLV) : uslv-tapp-inf04 : FR_3118 : source [LKP_ExcludeUsers{{DSQ}}] code page: [MS Windows Latin 1 (ANSI), superset of Latin1]
+2016-01-05 12:17:33 : INFO : (1599 | LKPDP_1:READER_1_1) : (IS | Integration_GCO_USLV) : uslv-tapp-inf04 : FR_3071 : Maximum Line sequential buffer length is 1026.
+2016-01-05 12:17:33 : INFO : (1599 | LKPDP_1:READER_1_1) : (IS | Integration_GCO_USLV) : uslv-tapp-inf04 : BLKR_16003 : Initialization completed successfully.
+2016-01-05 12:17:33 : INFO : (1599 | LKPDP_1:READER_1_1) : (IS | Integration_GCO_USLV) : uslv-tapp-inf04 : BLKR_16007 : Reader run started.
+2016-01-05 12:17:33 : INFO : (1599 | LKPDP_1:READER_1_1) : (IS | Integration_GCO_USLV) : uslv-tapp-inf04 : DBG_21430 : DBG_21430 Reading data from input source file [/opt/infa/svc-iog/Informatica/9.1.0/server/infa_shared/GCOCRM/UserPermissionSetAssignment/ExcludeUsers.txt] : (Tue Jan 05 12:17:33 2016)
+2016-01-05 12:17:33 : INFO : (1599 | LKPDP_1:TRANSF_1_1) : (IS | Integration_GCO_USLV) : uslv-tapp-inf04 : SORT_40420 : SORT_40420 Start of input for Transformation [LKP_ExcludeUsers{{SRT}}]. : (Tue Jan 05 12:17:33 2016)
+2016-01-05 12:17:33 : INFO : (1599 | LKPDP_1:READER_1_1) : (IS | Integration_GCO_USLV) : uslv-tapp-inf04 : BLKR_16008 : Reader run completed.
+2016-01-05 12:17:33 : INFO : (1599 | LKPDP_1:TRANSF_1_1) : (IS | Integration_GCO_USLV) : uslv-tapp-inf04 : SORT_40421 : SORT_40421 End of input for Transformation [LKP_ExcludeUsers{{SRT}}]. : (Tue Jan 05 12:17:33 2016)
+2016-01-05 12:17:33 : INFO : (1599 | LKPDP_1:TRANSF_1_1) : (IS | Integration_GCO_USLV) : uslv-tapp-inf04 : DBG_21079 : DBG_21079 Creating Lookup Cache : (Tue Jan 05 12:17:33 2016)
+2016-01-05 12:17:33 : INFO : (1599 | LKPDP_1:TRANSF_1_1) : (IS | Integration_GCO_USLV) : uslv-tapp-inf04 : SORT_40422 : SORT_40422 End of output from Sorter Transformation [LKP_ExcludeUsers{{SRT}}]. Processed 269 rows (15064 input bytes; 0 temp I/O bytes). : (Tue Jan 05 12:17:33 2016)
+2016-01-05 12:17:33 : INFO : (1599 | LKPDP_1:TRANSF_1_1) : (IS | Integration_GCO_USLV) : uslv-tapp-inf04 : SORT_40423 : SORT_40423 End of sort for Sorter Transformation [LKP_ExcludeUsers{{SRT}}]. : (Tue Jan 05 12:17:33 2016)
+2016-01-05 12:17:33 : INFO : (1599 | LKPDP_1:TRANSF_1_1) : (IS | Integration_GCO_USLV) : uslv-tapp-inf04 : DBG_21682 : Lookup table row count : 269
+2016-01-05 12:17:33 : INFO : (1599 | LKPDP_1:TRANSF_1_1) : (IS | Integration_GCO_USLV) : uslv-tapp-inf04 : DBG_21297 : Lookup cache row count : 269
+
+2016-01-05 12:17:33 : INFO : (1599 | LKPDP_1:TRANSF_1_1) : (IS | Integration_GCO_USLV) : uslv-tapp-inf04 : DBG_21294 : DBG_21294 Lookup cache creation completed : (Tue Jan 05 12:17:33 2016)
+2016-01-05 12:17:33 : INFO : (1599 | LKPDP_1:TRANSF_1_1) : (IS | Integration_GCO_USLV) : uslv-tapp-inf04 : CMN_1671 : Created new cache files PMLKUP75124_14_0_919614L64.[dat/idx] in directory /opt/infa/svc-iog/Informatica/9.1.0/server/infa_shared/Cache for Lookup [LKP_ExcludeUsers].
+2016-01-05 12:17:33 : INFO : (1599 | LKPDP_1:TRANSF_1_1) : (IS | Integration_GCO_USLV) : uslv-tapp-inf04 : DBG_21641 : LKP_ExcludeUsers: Index cache size = [59673600], Data cache size = [119308288]
+2016-01-05 12:17:33 : INFO : (1599 | LKPDP_1:TRANSF_1_1) : (IS | Integration_GCO_USLV) : uslv-tapp-inf04 : DBG_21216 : Finished transformations for Source Qualifier [LKP_ExcludeUsers{{DSQ}}]. Total errors [0] 
+2016-01-05 12:17:33 : INFO : (1599 | DIRECTOR) : (IS | Integration_GCO_USLV) : uslv-tapp-inf04 : TT_11184 : Starting additional concurrent pipeline to build the lookup cache needed by Lookup transformation [LKP_PermissionSetAssignment].
+2016-01-05 12:17:33 : INFO : (1599 | LKPDP_2) : (IS | Integration_GCO_USLV) : uslv-tapp-inf04 : TM_6660 : Total Buffer Pool size is 675360 bytes and Block size is 65536 bytes.
+2016-01-05 12:17:33 : INFO : (1599 | READER_1_1_1) : (IS | Integration_GCO_USLV) : uslv-tapp-inf04 : SFDC_31104 : [INFO] SOQL is [Select Id From User Where (Amgen_Sales_Force_AMGN__c in ('AM SF','ONC COMM ORANGE SF') AND IsActive = true)].
+2016-01-05 12:17:33 : INFO : (1599 | READER_1_1_1) : (IS | Integration_GCO_USLV) : uslv-tapp-inf04 : SFDC_31132 : [INFO] The Salesforce connection is using [TLSv1] for encryption.
+2016-01-05 12:17:33 : INFO : (1599 | READER_1_1_1) : (IS | Integration_GCO_USLV) : uslv-tapp-inf04 : SFDC_31122 : [INFO] Account [Integration.User@amgen.com.full] logged on salesforce.com at [https://test.salesforce.com/services/Soap/u/23.0].
+2016-01-05 12:17:33 : INFO : (1599 | LKPDP_2:READER_1_1) : (IS | Integration_GCO_USLV) : uslv-tapp-inf04 : SFDC_31104 : [INFO] SOQL is [Select Id, PermissionSetId, AssigneeId, SystemModstamp From PermissionSetAssignment].
+2016-01-05 12:17:33 : INFO : (1599 | LKPDP_2:READER_1_1) : (IS | Integration_GCO_USLV) : uslv-tapp-inf04 : SFDC_31132 : [INFO] The Salesforce connection is using [TLSv1] for encryption.
+2016-01-05 12:17:33 : INFO : (1599 | WRITER_1_*_1) : (IS | Integration_GCO_USLV) : uslv-tapp-inf04 : SFDC_31210 : [INFO] Target [PermissionSetAssignment] will process Salesforce.com object type [PermissionSetAssignment].
+2016-01-05 12:17:33 : INFO : (1599 | WRITER_1_*_1) : (IS | Integration_GCO_USLV) : uslv-tapp-inf04 : SFDC_31218 : [INFO] The Salesforce connection is using [TLSv1] for encryption.
+2016-01-05 12:17:33 : INFO : (1599 | LKPDP_2:READER_1_1) : (IS | Integration_GCO_USLV) : uslv-tapp-inf04 : SFDC_31122 : [INFO] Account [Integration.User@amgen.com.full] logged on salesforce.com at [https://test.salesforce.com/services/Soap/u/23.0].
+2016-01-05 12:17:33 : INFO : (1599 | WRITER_1_*_1) : (IS | Integration_GCO_USLV) : uslv-tapp-inf04 : SFDC_31216 : [INFO] Account [Integration.User@amgen.com.full] logged on salesforce.com at [https://test.salesforce.com/services/Soap/u/23.0].
+2016-01-05 12:17:33 : INFO : (1599 | WRITER_1_*_1) : (IS | Integration_GCO_USLV) : uslv-tapp-inf04 : SFDC_31210 : [INFO] Target [PermissionSetAssignment] will process Salesforce.com object type [PermissionSetAssignment].
+2016-01-05 12:17:33 : INFO : (1599 | WRITER_1_*_1) : (IS | Integration_GCO_USLV) : uslv-tapp-inf04 : SFDC_31218 : [INFO] The Salesforce connection is using [TLSv1] for encryption.
+2016-01-05 12:17:33 : INFO : (1599 | WRITER_1_*_1) : (IS | Integration_GCO_USLV) : uslv-tapp-inf04 : SFDC_31216 : [INFO] Account [Integration.User@amgen.com.full] logged on salesforce.com at [https://test.salesforce.com/services/Soap/u/23.0].
+2016-01-05 12:17:33 : INFO : (1599 | WRITER_1_*_1) : (IS | Integration_GCO_USLV) : uslv-tapp-inf04 : WRT_8270 : Target connection group #1 consists of target(s) [PermissionSetAssignment: Partition 1]
+2016-01-05 12:17:33 : INFO : (1599 | WRITER_1_*_1) : (IS | Integration_GCO_USLV) : uslv-tapp-inf04 : WRT_8270 : Target connection group #2 consists of target(s) [PermissionSetAssignment: Partition 1]
+2016-01-05 12:17:33 : INFO : (1599 | WRITER_1_*_1) : (IS | Integration_GCO_USLV) : uslv-tapp-inf04 : WRT_8003 : Writer initialization complete.
+2016-01-05 12:17:33 : INFO : (1599 | WRITER_1_*_1) : (IS | Integration_GCO_USLV) : uslv-tapp-inf04 : WRT_8005 : Writer run started.
+2016-01-05 12:17:33 : INFO : (1599 | WRITER_1_*_1) : (IS | Integration_GCO_USLV) : uslv-tapp-inf04 : WRT_8158 : 
+
+*****START LOAD SESSION*****
+
+Load Start Time: Tue Jan 05 12:17:33 2016
+
+Target tables:
+
+     PermissionSetAssignment: Partition 1
+     PermissionSetAssignment: Partition 1
+
+
+2016-01-05 12:17:34 : INFO : (1599 | TRANSF_1_1_1) : (IS | Integration_GCO_USLV) : uslv-tapp-inf04 : TT_11186 : Lookup cache of [LKP_PermissionSetAssignment], previously started by an additional concurrent pipeline, is now needed on demand.
+2016-01-05 12:17:34 : INFO : (1599 | TRANSF_1_1_1) : (IS | Integration_GCO_USLV) : uslv-tapp-inf04 : TT_11185 : No more lookup cache to build by additional concurrent pipeline in the current concurrent source set.
+2016-01-05 12:17:34 : INFO : (1599 | LKPDP_2:TRANSF_1_1) : (IS | Integration_GCO_USLV) : uslv-tapp-inf04 : SORT_40420 : SORT_40420 Start of input for Transformation [LKP_PermissionSetAssignment{{SRT}}]. : (Tue Jan 05 12:17:34 2016)
+2016-01-05 12:17:34 : INFO : (1599 | LKPDP_2:TRANSF_1_1) : (IS | Integration_GCO_USLV) : uslv-tapp-inf04 : SORT_40420 : SORT_40420 Start of input for Transformation [LKP_PermissionSetAssignment2{{SRT}}]. : (Tue Jan 05 12:17:34 2016)
+2016-01-05 12:17:34 : INFO : (1599 | LKPDP_2:TRANSF_1_1) : (IS | Integration_GCO_USLV) : uslv-tapp-inf04 : SORT_40421 : SORT_40421 End of input for Transformation [LKP_PermissionSetAssignment{{SRT}}]. : (Tue Jan 05 12:17:34 2016)
+2016-01-05 12:17:34 : INFO : (1599 | LKPDP_2:TRANSF_1_1) : (IS | Integration_GCO_USLV) : uslv-tapp-inf04 : DBG_21079 : DBG_21079 Creating Lookup Cache : (Tue Jan 05 12:17:34 2016)
+2016-01-05 12:17:34 : INFO : (1599 | LKPDP_2:TRANSF_1_1) : (IS | Integration_GCO_USLV) : uslv-tapp-inf04 : SORT_40422 : SORT_40422 End of output from Sorter Transformation [LKP_PermissionSetAssignment{{SRT}}]. Processed 1710 rows (232560 input bytes; 0 temp I/O bytes). : (Tue Jan 05 12:17:34 2016)
+2016-01-05 12:17:34 : INFO : (1599 | LKPDP_2:TRANSF_1_1) : (IS | Integration_GCO_USLV) : uslv-tapp-inf04 : SORT_40423 : SORT_40423 End of sort for Sorter Transformation [LKP_PermissionSetAssignment{{SRT}}]. : (Tue Jan 05 12:17:34 2016)
+2016-01-05 12:17:34 : INFO : (1599 | LKPDP_2:TRANSF_1_1) : (IS | Integration_GCO_USLV) : uslv-tapp-inf04 : DBG_21682 : Lookup table row count : 1710
+2016-01-05 12:17:34 : INFO : (1599 | LKPDP_2:TRANSF_1_1) : (IS | Integration_GCO_USLV) : uslv-tapp-inf04 : DBG_21297 : Lookup cache row count : 1710
+
+2016-01-05 12:17:34 : INFO : (1599 | LKPDP_2:TRANSF_1_1) : (IS | Integration_GCO_USLV) : uslv-tapp-inf04 : DBG_21294 : DBG_21294 Lookup cache creation completed : (Tue Jan 05 12:17:34 2016)
+2016-01-05 12:17:34 : INFO : (1599 | LKPDP_2:TRANSF_1_1) : (IS | Integration_GCO_USLV) : uslv-tapp-inf04 : CMN_1671 : Created new cache files PMLKUP75124_23_0_919614L64.[dat/idx] in directory /opt/infa/svc-iog/Informatica/9.1.0/server/infa_shared/Cache for Lookup [LKP_PermissionSetAssignment].
+2016-01-05 12:17:34 : INFO : (1599 | LKPDP_2:TRANSF_1_1) : (IS | Integration_GCO_USLV) : uslv-tapp-inf04 : DBG_21641 : LKP_PermissionSetAssignment: Index cache size = [59659200], Data cache size = [119308288]
+2016-01-05 12:17:34 : INFO : (1599 | LKPDP_2:TRANSF_1_1) : (IS | Integration_GCO_USLV) : uslv-tapp-inf04 : SORT_40421 : SORT_40421 End of input for Transformation [LKP_PermissionSetAssignment2{{SRT}}]. : (Tue Jan 05 12:17:34 2016)
+2016-01-05 12:17:34 : INFO : (1599 | LKPDP_2:TRANSF_1_1) : (IS | Integration_GCO_USLV) : uslv-tapp-inf04 : DBG_21079 : DBG_21079 Creating Lookup Cache : (Tue Jan 05 12:17:34 2016)
+2016-01-05 12:17:34 : INFO : (1599 | LKPDP_2:TRANSF_1_1) : (IS | Integration_GCO_USLV) : uslv-tapp-inf04 : SORT_40422 : SORT_40422 End of output from Sorter Transformation [LKP_PermissionSetAssignment2{{SRT}}]. Processed 1710 rows (232560 input bytes; 0 temp I/O bytes). : (Tue Jan 05 12:17:34 2016)
+2016-01-05 12:17:34 : INFO : (1599 | LKPDP_2:TRANSF_1_1) : (IS | Integration_GCO_USLV) : uslv-tapp-inf04 : SORT_40423 : SORT_40423 End of sort for Sorter Transformation [LKP_PermissionSetAssignment2{{SRT}}]. : (Tue Jan 05 12:17:34 2016)
+2016-01-05 12:17:34 : INFO : (1599 | LKPDP_2:TRANSF_1_1) : (IS | Integration_GCO_USLV) : uslv-tapp-inf04 : DBG_21682 : Lookup table row count : 1710
+2016-01-05 12:17:34 : INFO : (1599 | LKPDP_2:TRANSF_1_1) : (IS | Integration_GCO_USLV) : uslv-tapp-inf04 : DBG_21297 : Lookup cache row count : 1710
+
+2016-01-05 12:17:34 : INFO : (1599 | LKPDP_2:TRANSF_1_1) : (IS | Integration_GCO_USLV) : uslv-tapp-inf04 : DBG_21294 : DBG_21294 Lookup cache creation completed : (Tue Jan 05 12:17:34 2016)
+2016-01-05 12:17:34 : INFO : (1599 | LKPDP_2:TRANSF_1_1) : (IS | Integration_GCO_USLV) : uslv-tapp-inf04 : CMN_1671 : Created new cache files PMLKUP75124_25_0_919614L64.[dat/idx] in directory /opt/infa/svc-iog/Informatica/9.1.0/server/infa_shared/Cache for Lookup [LKP_PermissionSetAssignment2].
+2016-01-05 12:17:34 : INFO : (1599 | LKPDP_2:TRANSF_1_1) : (IS | Integration_GCO_USLV) : uslv-tapp-inf04 : DBG_21641 : LKP_PermissionSetAssignment2: Index cache size = [59664384], Data cache size = [119308288]
+2016-01-05 12:17:34 : INFO : (1599 | LKPDP_2:TRANSF_1_1) : (IS | Integration_GCO_USLV) : uslv-tapp-inf04 : DBG_21216 : Finished transformations for Source Qualifier [SQ_PermissionSetAssignment]. Total errors [0] 
+2016-01-05 12:17:34 : INFO : (1599 | TRANSF_1_1_1) : (IS | Integration_GCO_USLV) : uslv-tapp-inf04 : DBG_21216 : Finished transformations for Source Qualifier [SQ_User]. Total errors [0] 
+2016-01-05 12:17:34 : INFO : (1599 | WRITER_1_*_1) : (IS | Integration_GCO_USLV) : uslv-tapp-inf04 : WRT_8167 : Start loading table [PermissionSetAssignment: Partition 1] at: Tue Jan 05 12:17:34 2016
+2016-01-05 12:17:39 : INFO : (1599 | WRITER_1_*_1) : (IS | Integration_GCO_USLV) : uslv-tapp-inf04 : WRT_8167 : Start loading table [PermissionSetAssignment: Partition 1] at: Tue Jan 05 12:17:39 2016
+2016-01-05 12:17:39 : INFO : (1599 | WRITER_1_*_1) : (IS | Integration_GCO_USLV) : uslv-tapp-inf04 : WRT_8168 : End loading table [PermissionSetAssignment: Partition 1] at: Tue Jan 05 12:17:39 2016
+2016-01-05 12:17:39 : INFO : (1599 | WRITER_1_*_1) : (IS | Integration_GCO_USLV) : uslv-tapp-inf04 : WRT_8168 : End loading table [PermissionSetAssignment: Partition 1] at: Tue Jan 05 12:17:39 2016
+2016-01-05 12:17:39 : INFO : (1599 | WRITER_1_*_1) : (IS | Integration_GCO_USLV) : uslv-tapp-inf04 : WRT_8035 : Load complete time: Tue Jan 05 12:17:39 2016
+
+LOAD SUMMARY
+============
+
+WRT_8036 Target: PermissionSetAssignment: Partition 1 (Instance Name: [PermissionSetAssignment])
+WRT_8038 Inserted rows - Requested: 148        Applied: 148        Rejected: 0          Affected: 148       
+
+WRT_8036 Target: PermissionSetAssignment: Partition 1 (Instance Name: [PermissionSetAssignment1])
+WRT_8044 No data loaded for this target
+
+
+
+2016-01-05 12:17:39 : INFO : (1599 | WRITER_1_*_1) : (IS | Integration_GCO_USLV) : uslv-tapp-inf04 : WRT_8043 : *****END LOAD SESSION*****
+2016-01-05 12:17:39 : INFO : (1599 | WRITER_1_*_1) : (IS | Integration_GCO_USLV) : uslv-tapp-inf04 : WRT_8006 : Writer run completed.
+2016-01-05 12:17:39 : INFO : (1599 | MANAGER) : (IS | Integration_GCO_USLV) : uslv-tapp-inf04 : PETL_24031 : 
+***** RUN INFO FOR TGT LOAD ORDER GROUP [1], CONCURRENT SET [1] *****
+Thread [READER_1_1_1] created for [the read stage] of partition point [SQ_User] has completed. The total run time was insufficient for any meaningful statistics.
+Thread [TRANSF_1_1_1] created for [the transformation stage] of partition point [SQ_User] has completed. The total run time was insufficient for any meaningful statistics.
+Thread [WRITER_1_*_1] created for [the write stage] of partition point [PermissionSetAssignment, PermissionSetAssignment1] has completed.
+	Total Run Time = [5.087486] secs
+	Total Idle Time = [0.000000] secs
+	Busy Percentage = [100.000000]
+
+2016-01-05 12:17:39 : INFO : (1599 | MAPPING) : (IS | Integration_GCO_USLV) : uslv-tapp-inf04 : CMN_1793 : The index cache size that would hold [1710] rows in the lookup table for [LKP_PermissionSetAssignment], in memory, is [205200] bytes
+2016-01-05 12:17:39 : INFO : (1599 | MAPPING) : (IS | Integration_GCO_USLV) : uslv-tapp-inf04 : CMN_1792 : The data cache size that would hold [1710] rows in the lookup table for [LKP_PermissionSetAssignment], in memory, is [98304] bytes
+2016-01-05 12:17:39 : INFO : (1599 | MAPPING) : (IS | Integration_GCO_USLV) : uslv-tapp-inf04 : CMN_1793 : The index cache size that would hold [1710] rows in the lookup table for [LKP_PermissionSetAssignment2], in memory, is [525312] bytes
+2016-01-05 12:17:39 : INFO : (1599 | MAPPING) : (IS | Integration_GCO_USLV) : uslv-tapp-inf04 : CMN_1792 : The data cache size that would hold [1710] rows in the lookup table for [LKP_PermissionSetAssignment2], in memory, is [98304] bytes
+2016-01-05 12:17:39 : INFO : (1599 | MAPPING) : (IS | Integration_GCO_USLV) : uslv-tapp-inf04 : CMN_1793 : The index cache size that would hold [269] rows in the lookup table for [LKP_ExcludeUsers], in memory, is [92160] bytes
+2016-01-05 12:17:39 : INFO : (1599 | MAPPING) : (IS | Integration_GCO_USLV) : uslv-tapp-inf04 : CMN_1792 : The data cache size that would hold [269] rows in the lookup table for [LKP_ExcludeUsers], in memory, is [16384] bytes
+2016-01-05 12:17:39 : INFO : (1599 | MANAGER) : (IS | Integration_GCO_USLV) : uslv-tapp-inf04 : PETL_24005 : PETL_24005 Starting post-session tasks. : (Tue Jan 05 12:17:39 2016)
+2016-01-05 12:17:39 : INFO : (1599 | MANAGER) : (IS | Integration_GCO_USLV) : uslv-tapp-inf04 : PETL_24029 : PETL_24029 Post-session task completed successfully. : (Tue Jan 05 12:17:39 2016)
+2016-01-05 12:17:39 : INFO : (1599 | MAPPING) : (IS | Integration_GCO_USLV) : uslv-tapp-inf04 : SDKS_38510 : SDK target and group deinitialized with status [0].
+2016-01-05 12:17:39 : INFO : (1599 | MAPPING) : (IS | Integration_GCO_USLV) : uslv-tapp-inf04 : SDKS_38025 : Plug-in 310600 deinitialized and unloaded with status [0].
+2016-01-05 12:17:39 : INFO : (1599 | MAPPING) : (IS | Integration_GCO_USLV) : uslv-tapp-inf04 : SDKS_38019 : Writer SDK plug-ins deinitialized with status [0].
+2016-01-05 12:17:39 : INFO : (1599 | MAPPING) : (IS | Integration_GCO_USLV) : uslv-tapp-inf04 : SDKS_38025 : Plug-in 310600 deinitialized and unloaded with status [0].
+2016-01-05 12:17:39 : INFO : (1599 | MAPPING) : (IS | Integration_GCO_USLV) : uslv-tapp-inf04 : SDKS_38018 : Reader SDK plug-ins deinitialized with status [0].
+2016-01-05 12:17:39 : INFO : (1599 | MAPPING) : (IS | Integration_GCO_USLV) : uslv-tapp-inf04 : TE_7216 : Deleting cache files [PMLKUP75124_14_0_919614L64] for transformation [LKP_ExcludeUsers].
+2016-01-05 12:17:39 : INFO : (1599 | MAPPING) : (IS | Integration_GCO_USLV) : uslv-tapp-inf04 : TE_7216 : Deleting cache files [PMLKUP75124_23_0_919614L64] for transformation [LKP_PermissionSetAssignment].
+2016-01-05 12:17:39 : INFO : (1599 | MAPPING) : (IS | Integration_GCO_USLV) : uslv-tapp-inf04 : TE_7216 : Deleting cache files [PMLKUP75124_25_0_919614L64] for transformation [LKP_PermissionSetAssignment2].
+2016-01-05 12:17:39 : INFO : (1599 | MAPPING) : (IS | Integration_GCO_USLV) : uslv-tapp-inf04 : TM_6018 : The session completed with [0] row transformation errors. 
+2016-01-05 12:17:40 : INFO : (1599 | MANAGER) : (IS | Integration_GCO_USLV) : uslv-tapp-inf04 : PETL_24002 : Parallel Pipeline Engine finished.
+2016-01-05 12:17:40 : INFO : (1599 | DIRECTOR) : (IS | Integration_GCO_USLV) : uslv-tapp-inf04 : PETL_24012 : Session run completed successfully.
+2016-01-05 12:17:40 : INFO : (1599 | DIRECTOR) : (IS | Integration_GCO_USLV) : uslv-tapp-inf04 : TM_6022 : 
+
+SESSION LOAD SUMMARY
+================================================
+
+2016-01-05 12:17:40 : INFO : (1599 | DIRECTOR) : (IS | Integration_GCO_USLV) : uslv-tapp-inf04 : TM_6252 : Source Load Summary.
+2016-01-05 12:17:40 : INFO : (1599 | DIRECTOR) : (IS | Integration_GCO_USLV) : uslv-tapp-inf04 : CMN_1740 : Table: [SQ_User] (Instance Name: [SQ_User])
+	 Output Rows [201], Affected Rows [201], Applied Rows [201], Rejected Rows [0]
+2016-01-05 12:17:40 : INFO : (1599 | DIRECTOR) : (IS | Integration_GCO_USLV) : uslv-tapp-inf04 : TM_6253 : Target Load Summary.
+2016-01-05 12:17:40 : INFO : (1599 | DIRECTOR) : (IS | Integration_GCO_USLV) : uslv-tapp-inf04 : CMN_1740 : Table: [PermissionSetAssignment] (Instance Name: [PermissionSetAssignment])
+	 Output Rows [148], Affected Rows [148], Applied Rows [148], Rejected Rows [0]
+2016-01-05 12:17:40 : INFO : (1599 | DIRECTOR) : (IS | Integration_GCO_USLV) : uslv-tapp-inf04 : CMN_1740 : Table: [PermissionSetAssignment] (Instance Name: [PermissionSetAssignment1])
+	 Output Rows [0], Affected Rows [0], Applied Rows [0], Rejected Rows [0]
+2016-01-05 12:17:40 : INFO : (1599 | DIRECTOR) : (IS | Integration_GCO_USLV) : uslv-tapp-inf04 : TM_6023 : 
+===================================================
+
+2016-01-05 12:17:40 : INFO : (1599 | DIRECTOR) : (IS | Integration_GCO_USLV) : uslv-tapp-inf04 : TM_6020 : Session [s_User_PermissionSet_Assignment] completed at [Tue Jan 05 12:17:40 2016].
